@@ -3,6 +3,8 @@
 ## 📌 Project Overview
 This project is a **Twitter Sentiment Analysis** system built using **Python, NLP, and machine learning**. It classifies tweets as **Positive, Neutral, or Negative** using **Logistic Regression and Support Vector Machines (SVM)**. The model was optimized using **GridSearchCV**, achieving an accuracy of **87.58%**.
 
+The dataset consists of **recent tweets about the Pfizer & BioNTech COVID-19 vaccine**, collected using the **Tweepy Python package to access the Twitter API**. This dataset enables the study of public sentiment regarding vaccines through **Natural Language Processing (NLP) techniques**.
+
 ---
 
 ## 📌 Features
@@ -16,9 +18,16 @@ This project is a **Twitter Sentiment Analysis** system built using **Python, NL
 
 ## 📌 Tech Stack
 - **Programming Language**: Python 🐍  
-- **Libraries**: `Pandas`, `NumPy`, `Scikit-learn`, `NLTK`, `Matplotlib`, `Seaborn`, `WordCloud`  
+- **Libraries**: `Pandas`, `NumPy`, `Scikit-learn`, `NLTK`, `Matplotlib`, `Seaborn`, `WordCloud`, `Tweepy`  
 - **Machine Learning Models**: Logistic Regression, SVM (Support Vector Machine)  
 - **Text Processing**: CountVectorizer, TF-IDF  
+
+---
+
+## 📌 Data Collection & Inspiration
+- The dataset consists of **recent tweets about the Pfizer & BioNTech COVID-19 vaccine**.  
+- The data was collected using the **Tweepy Python package to access the Twitter API**.  
+- The goal is to **analyze public sentiment** regarding the vaccine, study trending topics, and perform various **NLP tasks**.  
 
 ---
 
