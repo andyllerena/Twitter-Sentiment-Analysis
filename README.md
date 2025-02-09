@@ -1,28 +1,26 @@
-# Twitter Sentiment Analysis using Machine Learning 🚀
+Twitter Sentiment Analysis using Machine Learning 🚀
+📌 Project Overview
+This project is a Twitter Sentiment Analysis system built using Python, NLP, and machine learning. It classifies tweets as Positive, Neutral, or Negative using Logistic Regression and Support Vector Machines (SVM). The model was optimized using GridSearchCV, achieving an accuracy of 87.58%.
 
-## 📌 Project Overview
-This project is a **Twitter Sentiment Analysis** system built using **Python, NLP, and machine learning**. It classifies tweets as **Positive, Neutral, or Negative** using **Logistic Regression and Support Vector Machines (SVM)**. The model was optimized using **GridSearchCV**, achieving an accuracy of **87.58%**.
+📌 Features
+✅ Preprocesses tweets: Cleans text by removing stopwords, URLs, and punctuation.
+✅ Vectorizes text: Converts tweets into numerical features using CountVectorizer & TF-IDF.
+✅ Trains Machine Learning Models: Uses Logistic Regression & SVM for sentiment classification.
+✅ Optimizes Hyperparameters: Implements GridSearchCV to fine-tune C, kernel, and gamma.
+✅ Evaluates Performance: Uses confusion matrices, precision-recall metrics, and F1-score.
 
-## 📌 Features
-✅ **Preprocesses tweets**: Cleans text by removing stopwords, URLs, and punctuation.  
-✅ **Vectorizes text**: Converts tweets into numerical features using **CountVectorizer & TF-IDF**.  
-✅ **Trains Machine Learning Models**: Uses **Logistic Regression & SVM** for sentiment classification.  
-✅ **Optimizes Hyperparameters**: Implements **GridSearchCV** to fine-tune **C, kernel, and gamma**.  
-✅ **Evaluates Performance**: Uses **confusion matrices, precision-recall metrics, and F1-score**.  
-
-## 📌 Tech Stack
-- **Programming Language**: Python 🐍
-- **Libraries**: Pandas, NumPy, Scikit-learn, NLTK, Matplotlib, Seaborn, WordCloud
-- **Machine Learning Models**: Logistic Regression, SVM (Support Vector Machine)
-- **Text Processing**: CountVectorizer, TF-IDF
-
----
-
-## 📌 Installation & Setup Instructions
-
-### **1️⃣ Clone the Repository**
-```bash
-git clone  https://github.com/andyllerena/Twitter-Sentiment-Analysis.git
+📌 Tech Stack
+Programming Language: Python 🐍
+Libraries: Pandas, NumPy, Scikit-learn, NLTK, Matplotlib, Seaborn, WordCloud
+Machine Learning Models: Logistic Regression, SVM (Support Vector Machine)
+Text Processing: CountVectorizer, TF-IDF
+📌 Installation & Setup Instructions
+1️⃣ Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/andyllerena/Twitter-Sentiment-Analysis.git
+cd Twitter-Sentiment-Analysis
 2️⃣ Install Required Dependencies
 Ensure you have Python 3.x installed, then run:
 
@@ -59,7 +57,7 @@ Optimized using GridSearchCV
 🚀 Experiment with Deep Learning models (LSTMs, Transformers).
 
 📌 Contributing
-Pull requests are welcome! If you'd like to contribute, please fork the repository and submit a PR.
+Pull requests are welcome! If you'd like to contribute, fork the repository, create a new branch, and submit a pull request (PR).
 
 📌 License
 This project is licensed under the MIT License.
