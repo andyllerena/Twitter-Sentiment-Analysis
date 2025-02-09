@@ -9,7 +9,7 @@ The dataset consists of **recent tweets about the Pfizer & BioNTech COVID-19 vac
 
 ## 📌 Features
 ✅ **Preprocesses tweets**: Cleans text by removing stopwords, URLs, and punctuation.  
-✅ **Vectorizes text**: Converts tweets into numerical features using **CountVectorizer & TF-IDF**.  
+✅ **Vectorizes text**: Converts tweets into numerical features using **CountVectorizer**.  
 ✅ **Trains Machine Learning Models**: Uses **Logistic Regression & SVM** for sentiment classification.  
 ✅ **Optimizes Hyperparameters**: Implements **GridSearchCV** to fine-tune **C, kernel, and gamma**.  
 ✅ **Evaluates Performance**: Uses **confusion matrices, precision-recall metrics, and F1-score**.  
